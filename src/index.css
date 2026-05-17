@@ -134,3 +134,13 @@
 body {
   font-family: var(--font-roboto);
 }
+
+
+.slick-slide {
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+.slick-list {
+  margin: 0 -12px;
+}
