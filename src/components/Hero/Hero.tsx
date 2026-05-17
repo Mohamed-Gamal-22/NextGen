@@ -1,5 +1,6 @@
 import GetStartedButton from "../GetStartedButton/GetStartedButton";
 import logo from "../../assets/first.png";
+import MainSlider from "../Slider/Slider";
 
 export default function Hero() {
   return (
@@ -28,7 +29,7 @@ export default function Hero() {
             <div className="btns mt-6 lg:mt-8 flex flex-wrap justify-center sm:justify-start gap-4 ">
               <GetStartedButton />
 
-              <button className="rounded-[12px] border border-[#737688] py-2.5 px-6">
+              <button className="rounded-[12px] cursor-pointer border border-[#737688] py-2.5 px-6">
                 View Our Work
               </button>
             </div>
@@ -36,11 +37,7 @@ export default function Hero() {
 
           <div className="slide w-full lg:w-1/2 px-4 py-6 lg:py-4">
             <div className="white p-3 sm:p-4 rounded-xl bg-white shadow-[0_0_40px_rgba(0,0,0,0.12)]">
-              <img
-                src={logo}
-                alt="digital apps"
-                className="w-full rounded-xl"
-              />
+              <MainSlider />
             </div>
           </div>
         </div>
