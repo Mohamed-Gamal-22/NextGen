@@ -8,6 +8,8 @@ export function Navbar() {
 
   return (
     <nav className="px-8 relative">
+
+      {/* desktop design */}
       <div className="p-2 flex justify-between items-center">
         {/* Logo */}
         <div className="logo">
