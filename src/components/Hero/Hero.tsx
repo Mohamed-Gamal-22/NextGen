@@ -1,0 +1,50 @@
+import GetStartedButton from "../GetStartedButton/GetStartedButton";
+import logo from "../../assets/first.png";
+
+export default function Hero() {
+  return (
+    <>
+      <div>
+        <div className="flex w-full flex-wrap items-center">
+          <div className="building w-full lg:w-1/2 px-4">
+            <ul className="list-disc list-inside mt-4">
+              <li className="font-bold text-[11px] sm:text-[12px] max-w-fit border border-[#C3C5D9] text-[#0041C8] py-1 px-3 rounded-[12px] bg-[#0041C8]/10">
+                NEXT-GEN INNOVATION
+              </li>
+            </ul>
+
+            <h1 className="font-bold text-[38px] sm:text-[44px] md:text-[50px] lg:text-[64px] text-[#191C1E] mt-6 lg:mt-8 leading-[120%] tracking-[-1px] lg:tracking-[-1.28px]">
+              Building <span className="text-[#0041C8]">Next-Generation</span>{" "}
+              Digital Solutions
+            </h1>
+
+            <p className="leading-7 text-[15px] sm:text-[16px] text-[#434656] mt-5 lg:mt-8 max-w-[95%]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Molestiae, officiis. Nam impedit repellat consequatur, ipsa
+              aliquam nostrum nesciunt nobis facere. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Vitae, sequi.
+            </p>
+
+            <div className="btns mt-6 lg:mt-8 flex flex-wrap justify-center sm:justify-start gap-4 ">
+              <GetStartedButton />
+
+              <button className="rounded-[12px] border border-[#737688] py-2.5 px-6">
+                View Our Work
+              </button>
+            </div>
+          </div>
+
+          <div className="slide w-full lg:w-1/2 px-4 py-6 lg:py-4">
+            <div className="white p-3 sm:p-4 rounded-xl bg-white shadow-[0_0_40px_rgba(0,0,0,0.12)]">
+              <img
+                src={logo}
+                alt="digital apps"
+                className="w-full rounded-xl"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

@@ -2,15 +2,15 @@ import { useState } from "react";
 import logo from "../../assets/nextGenLogo.jpg";
 import { MdLanguage } from "react-icons/md";
 import { FaBarsStaggered } from "react-icons/fa6";
+import GetStartedButton from "../GetStartedButton/GetStartedButton";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="px-8 relative">
-
+    <nav className="px-1 med:px-8 relative border-b border-[#C3C5D9]  shadow-[0_10px_24px_rgba(0,0,0,0.05)]">
       {/* desktop design */}
-      <div className="p-2 flex justify-between items-center">
+      <div className="p-2 relative flex justify-between items-center">
         {/* Logo */}
         <div className="logo">
           <img
@@ -59,10 +59,7 @@ export function Navbar() {
         {/* Desktop Button */}
         <div className="get-start hidden med:flex gap-3 items-center">
           <MdLanguage className="size-5 text-[#434656]" />
-
-          <button className="py-2.5 px-6 rounded-[12px] bg-linear-to-r from-[#0041C8] to-[#00737B] text-white cursor-pointer">
-            Get Start
-          </button>
+          <GetStartedButton />
         </div>
 
         {/* Mobile Toggle */}
@@ -73,7 +70,7 @@ export function Navbar() {
 
       {/* Mobile Menu Overlay */}
       <div
-        className={`med:hidden absolute left-0 top-full w-full px-4 transition-all duration-300 ease-in-out z-40 ${
+        className={`med:hidden absolute left-0 top-[110%] w-full px-4 transition-all duration-300 ease-in-out z-40 ${
           isOpen
             ? "opacity-100 translate-y-0 pointer-events-auto"
             : "opacity-0 -translate-y-4 pointer-events-none"
