@@ -1,5 +1,4 @@
 import GetStartedButton from "../GetStartedButton/GetStartedButton";
-import logo from "../../assets/first.png";
 import MainSlider from "../Slider/Slider";
 
 export default function Hero() {
