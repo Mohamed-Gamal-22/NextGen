@@ -23,9 +23,9 @@ export default function Hero() {
               Molestiae, officiis. Nam impedit repellat consequatur, ipsa
               aliquam nostrum nesciunt nobis facere. Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Vitae, sequi.
-            </p>
+            </p> 
 
-            <div className="btns mt-6 lg:mt-8 flex justify-center sm:justify-start gap-4 ">
+            <div className="btns mt-6 text-[12px] med:text-[16px] lg:mt-8 flex justify-center sm:justify-start gap-4 ">
               <GetStartedButton />
 
               <button className="py-2.5 px-6 rounded-[12px]  cursor-pointer border border-[#737688]">
