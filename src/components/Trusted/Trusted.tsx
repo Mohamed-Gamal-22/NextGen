@@ -17,44 +17,27 @@ export default function Trusted() {
             <img
               src={skynews}
               alt="skynews"
-              loading="lazy"
-              className="w-30 h-[120px] object-cover"
+              className="w-30 h-30 object-cover"
             />
             <p className=" my-3 font-bold">Sky News Arabia</p>
           </div>
           <div className="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 flex flex-col items-center p-4">
-            <img
-              src={apple}
-              alt="apple"
-              loading="lazy"
-              className="w-30 h-[120px] object-cover"
-            />
+            <img src={apple} alt="apple" className="w-30 h-30 object-cover" />
             <p className=" my-3 font-bold">Sky News Arabia</p>
           </div>
           <div className="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 flex flex-col items-center p-4">
-            <img
-              src={amazon}
-              alt="amazon"
-              loading="lazy"
-              className="w-30 h-[120px] object-cover"
-            />
+            <img src={amazon} alt="amazon" className="w-30 h-30 object-cover" />
             <p className=" my-3 font-bold">Sky News Arabia</p>
           </div>
           <div className="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 flex flex-col items-center p-4">
-            <img
-              src={huawei}
-              alt="huawei"
-              loading="lazy"
-              className="w-30 h-[120px] object-cover"
-            />
+            <img src={huawei} alt="huawei" className="w-30 h-30 object-cover" />
             <p className=" my-3 font-bold">Sky News Arabia</p>
           </div>
           <div className="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 flex flex-col items-center p-4">
             <img
               src={microsoft}
               alt="microsoft"
-              loading="lazy"
-              className="w-30 h-[120px] object-cover"
+              className="w-30 h-30 object-cover"
             />
             <p className=" my-3 font-bold">Sky News Arabia</p>
           </div>

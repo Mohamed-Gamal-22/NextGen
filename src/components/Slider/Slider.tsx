@@ -21,16 +21,11 @@ export default function MainSlider() {
     slidesToScroll: 1,
   };
   return (
-    <div className="px-4">
+    <div className="overflow-hidden">
       <div className="slider-container">
         <SlickSlider {...settings}>
           <div className="relative rounded-xl overflow-hidden">
-            <img
-              className="w-full rounded-xl"
-              loading="lazy"
-              src={img4}
-              alt="digital apps"
-            />
+            <img className="w-full rounded-xl" src={img4} alt="digital apps" />
             <div className="layer rounded-xl absolute inset-0 bg-black/65 flex justify-center items-center">
               <p
                 className="text-center text-white font-bold leading-tight px-6 mx-auto max-w-4xl
@@ -60,12 +55,7 @@ export default function MainSlider() {
             </div>
           </div>
           <div className="relative rounded-xl overflow-hidden">
-            <img
-              className="w-full rounded-xl"
-              loading="lazy"
-              src={img2}
-              alt="businiss app"
-            />
+            <img className="w-full rounded-xl" src={img2} alt="businiss app" />
             <div className="layer rounded-xl absolute inset-0 bg-black/65 flex justify-center items-center">
               <p
                 className="text-center text-white font-bold leading-tight px-6 mx-auto max-w-4xl
@@ -82,7 +72,6 @@ export default function MainSlider() {
           <div className="relative rounded-xl overflow-hidden">
             <img
               className="w-full rounded-xl"
-              loading="lazy"
               src={img3}
               alt="dataanalisys company"
             />
@@ -100,12 +89,7 @@ export default function MainSlider() {
             </div>
           </div>
           <div className="relative rounded-xl overflow-hidden">
-            <img
-              className="w-full rounded-xl"
-              loading="lazy"
-              src={img5}
-              alt="mobile app"
-            />
+            <img className="w-full rounded-xl" src={img5} alt="mobile app" />
             <div className="layer rounded-xl absolute inset-0 bg-black/65 flex justify-center items-center">
               <p
                 className="text-center text-white font-bold leading-tight px-6 mx-auto max-w-4xl
