@@ -6,7 +6,7 @@ export default function Hero() {
     <>
       <div className="px-4 med:px-8">
         <div className="flex w-full flex-wrap items-center justify-between">
-          <div className="building w-full lg:w-1/2 px-4">
+          <div className="building w-full lg:w-1/2">
             <ul className="list-disc list-inside mt-4">
               <li className="font-bold text-[11px] sm:text-[12px] max-w-fit border border-[#C3C5D9] text-[#0041C8] py-1 px-3 rounded-[12px] bg-[#0041C8]/10">
                 NEXT-GEN INNOVATION

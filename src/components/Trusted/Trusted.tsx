@@ -7,7 +7,7 @@ import microsoft from "../../assets/microsoft.jpg";
 export default function Trusted() {
   return (
     <div className=" bg-[#F2F4F6] my-12">
-      <div className="px-4 med:px-12 py-12 text-center leading-6">
+      <div className="px-4 med:px-8 py-12 text-center leading-6">
         <h2 className="uppercase text-[#434656] font-semibold tracking-[5px]">
           TRUSTED <span className="text-[#0041C8]">BY</span> LEADING COMPANIES
         </h2>

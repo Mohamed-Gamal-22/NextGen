@@ -10,7 +10,7 @@ export function Navbar() {
   return (
     <nav className="px-1 med:px-8 relative border-b border-[#C3C5D9]  shadow-[0_10px_24px_rgba(0,0,0,0.05)]">
       {/* desktop design */}
-      <div className="p-2 relative flex justify-between items-center">
+      <div className="px-4 relative flex justify-between items-center">
         {/* Logo */}
         <div className="logo">
           <img
