@@ -9,7 +9,7 @@ export default function Contact() {
         <div className="left w-full lg:w-1/2 px-4">
           <h2 className="text-[40px] lg:text-[48px] leading-16 text-[#191C1E] capitalize">
             Let’s work together to build
-            <span className="text-[#0041C8]">the future.</span>
+            <span className="text-[#0041C8]"> the future.</span>
           </h2>
           <p className="text-[#434656] my-6">
             Whether you're scaling a startup or modernizing an enterprise, our
