@@ -1,4 +1,4 @@
-import img from "../../assets/buisniss.png";
+import img from "../../assets/buisniss.webp";
 
 import { FaArrowRightLong } from "react-icons/fa6";
 import { IoArrowRedo } from "react-icons/io5";

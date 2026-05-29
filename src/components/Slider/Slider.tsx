@@ -1,11 +1,11 @@
 import Slider from "react-slick";
-import img1 from "../../assets/ai.png";
-import img2 from "../../assets/buisniss.png";
-import img3 from "../../assets/dataanalisys.png";
-import img4 from "../../assets/first.png";
-import img5 from "../../assets/mobile.png";
-import img6 from "../../assets/ui.png";
-import img7 from "../../assets/web.png";
+import img1 from "../../assets/ai.webp";
+import img2 from "../../assets/buisniss.webp";
+import img3 from "../../assets/dataanalisys.webp";
+import img4 from "../../assets/first.webp";
+import img5 from "../../assets/mobile.webp";
+import img6 from "../../assets/ui.webp";
+import img7 from "../../assets/web.webp";
 
 const SlickSlider = (Slider as any).default || Slider;
 
