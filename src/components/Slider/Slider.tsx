@@ -6,6 +6,7 @@ import img4 from "../../assets/first.webp";
 import img5 from "../../assets/mobile.webp";
 import img6 from "../../assets/ui.webp";
 import img7 from "../../assets/web.webp";
+import { useEffect } from "react";
 
 const SlickSlider = (Slider as any).default || Slider;
 
@@ -22,6 +23,14 @@ export default function MainSlider() {
   lazyLoad: false,
   pauseOnHover: false,
 };
+
+useEffect(() => {
+  [img1, img2, img3, img5, img6, img7].forEach((src) => {
+    const image = new Image();
+    image.src = src;
+  });
+}, []);
+
   return (
     <div className="overflow-hidden">
       <div className="slider-container">
