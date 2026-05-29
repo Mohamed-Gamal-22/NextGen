@@ -11,21 +11,28 @@ const SlickSlider = (Slider as any).default || Slider;
 
 export default function MainSlider() {
   const settings = {
-    adaptiveHeight: true,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+  autoplay: true,
+  autoplaySpeed: 3000,
+  dots: false,
+  infinite: true,
+  speed: 700,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  cssEase: "ease-in-out",
+  lazyLoad: false,
+  pauseOnHover: false,
+};
   return (
     <div className="overflow-hidden">
       <div className="slider-container">
         <SlickSlider {...settings}>
           <div className="relative rounded-xl overflow-hidden">
-            <img className="w-full rounded-xl" src={img4} alt="digital apps" />
+            <img
+              className="w-full rounded-xl"
+              src={img4}
+              alt="digital apps"
+              loading="eager"
+            />
             <div className="layer rounded-xl absolute inset-0 bg-black/65 flex justify-center items-center">
               <p
                 className="text-center text-white font-bold leading-tight px-6 mx-auto max-w-4xl
@@ -40,7 +47,7 @@ export default function MainSlider() {
             </div>
           </div>
           <div className="relative rounded-xl overflow-hidden">
-            <img className="w-full" loading="lazy" src={img1} alt="ai" />
+            <img className="w-full rounded-xl" src={img1} alt="ai" />
             <div className="layer rounded-xl absolute inset-0 bg-black/65 flex justify-center items-center">
               <p
                 className="text-center text-white font-bold leading-tight px-6 mx-auto max-w-4xl
@@ -104,7 +111,7 @@ export default function MainSlider() {
             </div>
           </div>
           <div className="relative rounded-xl overflow-hidden">
-            <img className="w-full" loading="lazy" src={img6} alt="ui/ux" />
+            <img className="w-full rounded-xl" src={img6} alt="ui/ux" />
             <div className="layer rounded-xl absolute inset-0 bg-black/65 flex justify-center items-center">
               <p
                 className="text-center text-white font-bold leading-tight px-6 mx-auto max-w-4xl
@@ -119,7 +126,7 @@ export default function MainSlider() {
             </div>
           </div>
           <div className="relative rounded-xl overflow-hidden">
-            <img className="w-full" loading="lazy" src={img7} alt="web" />
+            <img className="w-full rounded-xl " src={img7} alt="web" />
             <div className="layer rounded-xl absolute inset-0 bg-black/65 flex justify-center items-center">
               <p
                 className="text-center text-white font-bold leading-tight px-6 mx-auto max-w-4xl

@@ -8,7 +8,7 @@ export default function Links() {
     <div className="px-4 med:px-8 py-16">
       <div className="flex flex-wrap">
         <div className="w-full md:w-1/2 lg:w-1/4 p-4">
-          <img src={logo} alt="" className="w-30 h-30 object-cover" />
+          <img src={logo} alt="" className="w-30 h-30 object-cover  border-2  border-[#0041C8] mb-2" />
           <p className="text-[#434656]">
             Engineering excellence for the world's most ambitious technology
             innovators.
