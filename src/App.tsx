@@ -2,6 +2,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Layout from "./components/layout/Layout";
 import NotFound from "./pages/NotFound/NotFound";
+import { Toaster } from "react-hot-toast";
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,12 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <RouterProvider router={router}></RouterProvider>;
+  return (
+    <>
+      <RouterProvider router={router}></RouterProvider>
+      <Toaster />
+    </>
+  );
 }
 
 export default App;

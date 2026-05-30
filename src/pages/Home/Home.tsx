@@ -3,6 +3,7 @@ import Hero from "../../components/Hero/Hero";
 import Links from "../../components/Links/Links";
 import Portfolio from "../../components/Portfolio/Portfolio";
 import Trusted from "../../components/Trusted/Trusted";
+import Whatsapp from "../../components/Whatsapp/Whatsapp";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Portfolio />
       <Contact />
       <Links />
+      <Whatsapp />
     </div>
   );
 }

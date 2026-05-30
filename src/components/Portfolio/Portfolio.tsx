@@ -5,7 +5,7 @@ import { IoArrowRedo } from "react-icons/io5";
 
 export default function Portfolio() {
   return (
-    <div className="px-4 med:px-8 text-center py-12">
+    <div className="px-4 med:px-8 text-center py-8">
       <h2 className="text-[36px] font-semibold text-[#191C1E]">
         Our Portfolio
       </h2>

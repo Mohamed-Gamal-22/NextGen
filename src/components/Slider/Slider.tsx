@@ -26,7 +26,9 @@ export default function MainSlider() {
 
 useEffect(() => {
   [img1, img2, img3, img5, img6, img7].forEach((src) => {
+    //  ---  بتعمل Image object في الذاكرة فقط. ---- من غير dom ولا render
     const image = new Image();
+    // المتصفح يبدأ download للصورة فورًا ويحطهافي البراوزر كاش
     image.src = src;
   });
 }, []);
