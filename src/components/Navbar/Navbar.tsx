@@ -8,7 +8,7 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="px-1 med:px-8 relative border-b border-[#C3C5D9]  shadow-[0_10px_24px_rgba(0,0,0,0.05)]">
+    <nav className="px-1 fixed top-0 med:px-8 left-0 right-0 z-50 bg-slate-100 border-b border-[#C3C5D9]  shadow-[0_10px_24px_rgba(0,0,0,0.05)]">
       {/* desktop design */}
       <div className="px-4 relative flex justify-between items-center">
         {/* Logo */}

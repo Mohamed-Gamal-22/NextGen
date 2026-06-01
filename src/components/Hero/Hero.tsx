@@ -4,7 +4,7 @@ import MainSlider from "../Slider/Slider";
 export default function Hero() {
   return (
     <>
-      <div className="px-4 med:px-8">
+      <div className="px-4 med:px-8 py-22">
         <div className="flex w-full flex-wrap items-center justify-between">
           <div className="building w-full lg:w-1/2">
             <ul className="list-disc list-inside mt-4">
